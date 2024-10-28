@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fodmap_recipes/views/widgets/recipe_card.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -21,6 +22,7 @@ class _HomePageState extends State<HomePage>{
           Text('Fodmap recipes')
         ],),
       ),
+      body: const RecipeCard(title: 'Quesadillas', cookTime: '15 min', rating: '5', thumbnailUrl: 'https://lh3.googleusercontent.com/ei5eF1LRFkkcekhjdR_8XgOqgdjpomf-rda_vvh7jIauCgLlEWORINSKMRR6I6iTcxxZL9riJwFqKMvK0ixS0xwnRHGMY4I5Zw=s360'),
     );
   }
 }
